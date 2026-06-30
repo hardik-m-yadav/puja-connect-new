@@ -1,4 +1,5 @@
 import { Routes, Route, useLocation } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 import Home from "./pages/Home";
 import Rituals from "./pages/Rituals";
 import Pandits from "./pages/Pandits";
@@ -21,20 +22,53 @@ import AdminCalendar from "./admin/pages/AdminCalendar";
 import Payments from "./admin/pages/Payments";
 import Customers from "./admin/pages/Customers";
 import Settings from "./admin/pages/Settings";
+import PanditLogin from "./admin/pages/PanditLogin";
+import LoginGateway from "./pages/LoginGateway";
+import AdminLogin from "./admin/pages/AdminLogin";
+import PanditDashboard from "./admin/pages/PanditDashboard";
+import AddPandit from "./admin/pages/AddPandit";
+import AdminPandits from "./admin/pages/AdminPandits";
+import PanditBookings from "./pandit/pages/PanditBookings";
+import PanditEarnings from "./pandit/pages/PanditEarnings";
+import PanditProfile from "./pandit/pages/PanditProfile";
+import PanditAvailability from "./pandit/pages/PanditAvailability";
+
+
 
 const App = () => {
   const location = useLocation();
 
+  // const isAdminRoute = location.pathname.startsWith("/admin");
+
+
+
+  
+
+  
+
+  // const hideFooterRoutes = ["/ai-guru"];
+
+  // const hideFooter =
+  //   hideFooterRoutes.includes(location.pathname) || isAdminRoute;
+
+  // return (
+  //   <>
+  //     {!isAdminRoute && <Navbar />}
+
   const isAdminRoute = location.pathname.startsWith("/admin");
+const isPanditRoute = location.pathname.startsWith("/pandit/");
 
-  const hideFooterRoutes = ["/ai-guru"];
+const hideFooterRoutes = ["/ai-guru"];
 
-  const hideFooter =
-    hideFooterRoutes.includes(location.pathname) || isAdminRoute;
+const hideFooter =
+  hideFooterRoutes.includes(location.pathname) ||
+  isAdminRoute ||
+  isPanditRoute;
 
-  return (
-    <>
-      {!isAdminRoute && <Navbar />}
+return (
+  <>
+    {/* ❌ Hide Navbar for Admin + Pandit */}
+    {!isAdminRoute && !isPanditRoute && <Navbar />}
 
       <Routes>
         {/* Home */}
@@ -99,6 +133,31 @@ const App = () => {
   }
 />
 
+
+
+<Route
+  path="/admin/pandits"
+  element={
+    <AdminRoute>
+      <AdminPandits/>
+    </AdminRoute>
+  }
+/>
+
+
+
+
+<Route
+  path="/admin/pandits/add"
+  element={
+    <AdminRoute>
+      <AddPandit />
+    </AdminRoute>
+  }
+/>
+
+
+
    <Route path="/admin/payments" element={<Payments />} />
 
 
@@ -112,6 +171,54 @@ const App = () => {
  <Route
   path="/admin/settings"
   element={<Settings />}
+/>
+
+
+
+
+
+
+
+<Route path="/pandit/login" element={<PanditLogin />} />
+
+
+<Route path="/login" element={<LoginGateway />} />
+
+{/* <Route path="/" element={<Navigate to="/login" />} /> */}
+
+<Route path="/" element={<Navigate to="/login" />} />
+
+<Route path="/admin/login" element={<AdminLogin />} />
+
+<Route path="/pandit/dashboard" element={<PanditDashboard />} />
+
+
+
+
+
+<Route path="/pandit/bookings" element={<PanditBookings />} />
+
+<Route
+  path="/pandit/earnings"
+  element={<PanditEarnings />}
+/>
+
+<Route
+  path="/pandit/profile"
+  element={<PanditProfile />}
+/>
+
+
+
+
+
+
+
+
+
+<Route
+  path="/pandit/calendar"
+  element={<PanditAvailability />}
 />
 
 

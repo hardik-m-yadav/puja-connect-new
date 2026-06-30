@@ -1,34 +1,3 @@
-// import { Link } from "react-router-dom";
-
-// const Navbar = () => {
-//   return (
-//     <nav className="fixed top-0 left-0 w-full z-50 bg-black/30 backdrop-blur-xl border-b border-white/10">
-//       <div className="max-w-7xl mx-auto px-5 h-20 flex items-center justify-between">
-//         <Link
-//           to="/"
-//           className="text-2xl font-bold text-amber-400"
-//         >
-//           PujaConnect
-//         </Link>
-
-//         <div className="hidden md:flex gap-8">
-//           <Link to="/">Home</Link>
-//           <Link to="/rituals">Rituals</Link>
-//           <Link to="/pandits">Pandits</Link>
-//           <Link to="/ai-guru">AI Guru</Link>
-//         </div>
-
-//         <button className="bg-amber-400 text-black px-5 py-2 rounded-full font-semibold">
-//           Book Puja
-//         </button>
-//       </div>
-//     </nav>
-//   );
-// };
-
-// export default Navbar;
-
-
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
@@ -105,6 +74,20 @@ return ( <nav className="fixed top-0 left-0 w-full z-50 border-b border-white/10
     </motion.button> */}
 
 
+   
+
+
+<Link to="/login">
+  <motion.button
+    whileHover={{ scale: 1.05 }}
+    whileTap={{ scale: 0.96 }}
+    className="hidden md:block px-6 py-3 rounded-full bg-amber-400 text-black font-semibold shadow-lg shadow-amber-500/20"
+  >
+    Login
+  </motion.button>
+</Link>
+
+
     <Link to="/rituals">
   <motion.button
     whileHover={{ scale: 1.05 }}
@@ -114,6 +97,8 @@ return ( <nav className="fixed top-0 left-0 w-full z-50 border-b border-white/10
     Book Puja
   </motion.button>
 </Link>
+
+
 
     {/* Mobile Menu Button */}
     <button
