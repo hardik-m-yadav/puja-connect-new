@@ -168,7 +168,7 @@ className="mt-8 w-full"
           <div className="rounded-3xl overflow-hidden border border-white/10 bg-white/5 backdrop-blur-xl">
 
             <img
-              src="/p5.jpg"
+              src="https://images.pexels.com/photos/35089271/pexels-photo-35089271.png"
               alt="Pandit"
              className="h-[320px] sm:h-[400px] lg:h-[450px] w-full object-cover"
             />
