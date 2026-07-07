@@ -16,7 +16,7 @@ const rituals = [
     duration: "45 mins",
     price: "₹2,500+",
     image:
-      "grahpravesh.jpeg",
+      "https://images.unsplash.com/photo-1680491026421-75b3f2feef56?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3JpaGElMjBwcmF2ZXNofGVufDB8fDB8fHww",
     desc: "Sacred house entry ritual for prosperity and positivity.",
     tag: "Most Popular",
   },
@@ -26,7 +26,7 @@ const rituals = [
     duration: "60 mins",
     price: "₹1,500+",
     image:
-      "satyanarayan.jpeg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM6fYbh3w7tgOV5bJ7fLckYbMTASFhPfq2-UGANJ_Z3A&s=10",
     desc: "Divine storytelling ritual for peace and blessings.",
     tag: "Highly Booked",
   },
@@ -36,7 +36,7 @@ const rituals = [
     duration: "120 mins",
     price: "₹5,000+",
     image:
-      "marriage1.jpeg",
+      "https://images.unsplash.com/photo-1708963738411-74ab1cd5eafb?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGdyaWhhJTIwcHJhdmVzaHxlbnwwfHwwfHx8MA%3D%3D",
     desc: "Sacred wedding rituals for divine union.",
     tag: "Premium",
   },

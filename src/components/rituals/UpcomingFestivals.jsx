@@ -1,272 +1,3 @@
-// import { motion } from "framer-motion";
-// import { FiArrowRight, FiClock } from "react-icons/fi";
-// import { Link } from "react-router-dom";
-
-// const festivals = [
-//   {
-//     name: "Ganesh Chaturthi",
-//     date: "2026-09-17",
-//     image: "ganesh-festival.jpg",
-//     ritual: "Ganesh Sthapana Puja",
-//   },
-//   {
-//     name: "Navratri",
-//     date: "2026-10-09",
-//     image: "navratri.jpg",
-//     ritual: "Durga Puja",
-//   },
-//   {
-//     name: "Diwali",
-//     date: "2026-11-08",
-//     image: "diwali.jpg",
-//     ritual: "Lakshmi Puja",
-//   },
-//     {
-//     name: "Janamashtami",
-//     date: "2026-09-04",
-//     image: "janamashtami.jpg",
-//     ritual: "Janamashtami Puja",
-//   },
-// ];
-
-// const getCountdown = (targetDate) => {
-//   const difference = new Date(targetDate) - new Date();
-
-//   const days = Math.max(0, Math.floor(difference / (1000 * 60 * 60 * 24)));
-
-//   return days;
-// };
-
-// const UpcomingFestivals = () => {
-//   return (
-//     <section className="relative py-28 bg-[#050816] overflow-hidden">
-
-//       {/* Background Glow */}
-//       <motion.div
-//         animate={{
-//           x: [0, 80, 0],
-//           y: [0, -50, 0],
-//         }}
-//         transition={{
-//           duration: 18,
-//           repeat: Infinity,
-//         }}
-//         className="absolute top-0 left-10 w-96 h-96 bg-amber-500/10 blur-[180px]"
-//       />
-
-//       <motion.div
-//         animate={{
-//           x: [0, -100, 0],
-//           y: [0, 80, 0],
-//         }}
-//         transition={{
-//           duration: 20,
-//           repeat: Infinity,
-//         }}
-//         className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-orange-500/10 blur-[200px]"
-//       />
-
-//       <div className="relative max-w-7xl mx-auto px-5">
-
-//         {/* Heading */}
-//         <motion.div
-//           initial={{ opacity: 0, y: 40 }}
-//           whileInView={{ opacity: 1, y: 0 }}
-//           viewport={{ once: true }}
-//           className="text-center mb-20"
-//         >
-//           <span className="inline-flex px-5 py-2 rounded-full border border-amber-400/20 bg-amber-400/5 text-amber-400 text-xs tracking-[0.35em] uppercase">
-//             Sacred Calendar
-//           </span>
-
-//           <h2
-//             className="mt-6 text-4xl md:text-6xl font-bold text-white"
-//             style={{ fontFamily: "Cinzel" }}
-//           >
-//             Upcoming Festivals
-//           </h2>
-
-//           <p className="text-slate-400 mt-6 max-w-2xl mx-auto">
-//             Prepare early and book verified pandits before festival rush begins.
-//           </p>
-//         </motion.div>
-
-//         {/* Festival Cards */}
-//         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
-
-//           {festivals.map((festival, index) => (
-
-//             <motion.div
-//               key={index}
-//               initial={{ opacity: 0, y: 60 }}
-//               whileInView={{ opacity: 1, y: 0 }}
-//               viewport={{ once: true }}
-//               whileHover={{
-//                 y: -12,
-//                 scale: 1.02,
-//               }}
-//               className="
-//               group
-//               overflow-hidden
-//               rounded-[32px]
-//               border
-//               border-white/10
-//               bg-white/[0.04]
-//               backdrop-blur-2xl
-//               hover:border-amber-400/30
-//               hover:shadow-[0_0_50px_rgba(251,191,36,0.15)]
-//               transition-all
-//               duration-500
-//             "
-//             >
-//               {/* Image */}
-//               <div className="relative h-[260px] overflow-hidden">
-
-//                 <img
-//                   src={festival.image}
-//                   alt={festival.name}
-//                   className="
-//                   w-full
-//                   h-full
-//                   object-cover
-//                   group-hover:scale-110
-//                   transition
-//                   duration-700
-//                 "
-//                 />
-
-//                 <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent" />
-
-//                 <div className="absolute top-5 left-5">
-//                   <span className="px-3 py-1 rounded-full bg-amber-400 text-black text-xs font-semibold">
-//                     Upcoming
-//                   </span>
-//                 </div>
-
-//               </div>
-
-//               {/* Content */}
-//               <div className="p-6">
-
-//                 <h3 className="text-2xl font-semibold text-white">
-//                   {festival.name}
-//                 </h3>
-
-//                 <p className="text-slate-400 mt-2">
-//                   {festival.ritual}
-//                 </p>
-
-//                 {/* Countdown */}
-//                 <div className="
-//                   mt-6
-//                   p-4
-//                   rounded-2xl
-//                   bg-white/5
-//                   border
-//                   border-white/10
-//                   flex
-//                   items-center
-//                   gap-3
-//                 ">
-//                   <FiClock className="text-amber-400 text-xl" />
-
-//                   <div>
-//                     <p className="text-white font-semibold">
-//                       {getCountdown(festival.date)} Days Left
-//                     </p>
-
-//                     <p className="text-slate-500 text-sm">
-//                       Festival Countdown
-//                     </p>
-//                   </div>
-//                 </div>
-
-//                 {/* CTA */}
-//                 <Link to="/pandits">
-//                   <button
-//                     className="
-//                     mt-6
-//                     w-full
-//                     py-4
-//                     rounded-2xl
-//                     bg-amber-400
-//                     text-black
-//                     font-semibold
-//                     flex
-//                     items-center
-//                     justify-center
-//                     gap-2
-//                     hover:scale-[1.02]
-//                     transition
-//                   "
-//                   >
-//                     Book Ritual
-
-//                     <FiArrowRight />
-//                   </button>
-//                 </Link>
-
-//               </div>
-
-//             </motion.div>
-
-//           ))}
-
-//         </div>
-
-//         {/* Bottom Banner */}
-//         <motion.div
-//           initial={{ opacity: 0, y: 40 }}
-//           whileInView={{ opacity: 1, y: 0 }}
-//           viewport={{ once: true }}
-//           className="mt-20"
-//         >
-//           <div className="
-//             rounded-[32px]
-//             border
-//             border-white/10
-//             bg-white/[0.04]
-//             backdrop-blur-2xl
-//             p-8
-//             md:p-12
-//             text-center
-//           ">
-//             <h3
-//               className="text-3xl md:text-5xl font-bold text-white"
-//               style={{ fontFamily: "Cinzel" }}
-//             >
-//               Don't Miss Sacred Moments
-//             </h3>
-
-//             <p className="text-slate-400 mt-5 max-w-2xl mx-auto">
-//               Festival dates fill quickly. Reserve your pandit early and celebrate with complete peace of mind.
-//             </p>
-
-//             <Link to="/pandits">
-//               <button className="mt-8 px-8 py-4 rounded-full bg-amber-400 text-black font-semibold hover:scale-105 transition">
-//                 Explore Pandits
-//               </button>
-//             </Link>
-//           </div>
-//         </motion.div>
-
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default UpcomingFestivals;
-
-
-
-
-
-
-
-
-
-
-
 import { motion } from "framer-motion";
 import {
   FiArrowRight,
@@ -279,21 +10,21 @@ import { Link } from "react-router-dom";
 const festivals = [
   {
     name: "Navratri",
-    image: "f2.jpg",
+    image: "https://media.istockphoto.com/id/2244130953/photo/vibrant-durga-puja-idol-on-lion-mount.jpg?s=612x612&w=0&k=20&c=V4xGBHmj36l7KyfpZmBCpCN5DpwqdmFaKySpTDnrdHo=",
     days: "28",
     bookings: "820+",
     id: "navratri-puja"
   },
   {
     name: "Diwali Lakshmi Puja",
-    image: "f3.jpg",
+    image: "https://media.istockphoto.com/id/1346254741/photo/hands-of-girl-holding-ghanti-bell-clay-diya-deep-dia-lamp-illuminated-in-pooja-thali-for.jpg?s=612x612&w=0&k=20&c=pwU54x1WuLTd1rygHD_SZPwFBeBiopg9W5EGGLg7CIk=",
     days: "52",
     bookings: "1.4K+",
     id: "diwali-lakshmi-puja",
   },
   {
     name: "Dusherra",
-    image: "f4.jpg",
+    image: "https://media.istockphoto.com/id/1454304269/photo/ravan-dahan-according-to-hindu-culture-effigies-of-ravana-are-burned-on-vijayadashami-in.jpg?s=612x612&w=0&k=20&c=C0qORXmNdYDc1J7sHSSF3ppnhmP-iY6JAixadS0eOaA=",
     days: "88",
     bookings: "630+",
     id: "dussehra-puja",
@@ -371,7 +102,7 @@ const UpcomingFestivals = () => {
     <div className="relative">
 
       <img
-        src="f1.jpg"
+        src="https://images.unsplash.com/photo-1567591414240-e9c1e59f3e06?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Z2FuZXNoJTIwcHVqYXxlbnwwfHwwfHx8MA%3D%3D"
         alt="Ganesh Chaturthi"
         className="w-full h-[260px] sm:h-[350px] md:h-[450px] object-cover"
       />

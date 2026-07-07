@@ -13,17 +13,17 @@ import { FiShield, FiVideo, FiStar } from "react-icons/fi";
 import { Link } from "react-router-dom";
 
 const images = [
- "1.jpg",
-  "2.jpg",
-  "3.jpg",
-  "8.jpg",
-  "11.jpg",
-  "6.jpg",
-  "7.jpg",
-  "5.jpg",
-  "9.jpg",
-  "4.jpg",
-  "10.jpg"
+ "https://images.unsplash.com/photo-1566915682737-3e97a7eed93b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aW5kaWFuJTIwdGVtcGxlfGVufDB8fDB8fHww",
+  "https://images.unsplash.com/photo-1616074385287-67f6fb9e9eb8?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHVqYXxlbnwwfHwwfHx8MA%3D%3D",
+  "https://images.unsplash.com/photo-1656830738920-7e0090536552?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHB1amF8ZW58MHx8MHx8fDA%3D",
+  "https://images.unsplash.com/photo-1700975161101-9dec59d4dcaf?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHB1amF8ZW58MHx8MHx8fDA%3D",
+  "https://images.unsplash.com/photo-1646208505943-1a7ed7a62c1b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGFuZGl0fGVufDB8fDB8fHww",
+  "https://images.unsplash.com/photo-1627419375575-6cb2faa849b3?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHVqYSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D",
+  "https://images.unsplash.com/photo-1764304589223-30bfbfdaa9ef?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHB1amElMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+  "https://images.unsplash.com/photo-1730312390229-8f8e1589e362?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHB1amElMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+  "https://images.unsplash.com/photo-1573352763925-82bd5dfc31d1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dGVtcGxlfGVufDB8fDB8fHww",
+  "https://images.unsplash.com/photo-1616377009507-c8111f07aced?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHRlbXBsZXxlbnwwfHwwfHx8MA%3D%3D",
+  "https://images.unsplash.com/photo-1585607344893-43a4bd91169a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dHJhZGl0aW9ufGVufDB8fDB8fHww"
   
 
 

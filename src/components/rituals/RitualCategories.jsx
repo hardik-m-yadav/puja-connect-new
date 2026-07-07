@@ -6,7 +6,7 @@ import { rituals } from "../../data/rituals";
 const categories = [
   {
     title: "Marriage Puja",
-    image: "marriage1.jpeg",
+    image:  "https://images.unsplash.com/photo-1708963738411-74ab1cd5eafb?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGdyaWhhJTIwcHJhdmVzaHxlbnwwfHwwfHx8MA%3D%3D",
     rating: "4.9",
     bookings: "2.4K",
     tag: "Popular",
@@ -14,7 +14,7 @@ const categories = [
   },
   {
     title: "Ganesh Puja",
-    image: "ganesh.jpeg",
+    image: "https://images.unsplash.com/photo-1567591414240-e9c1e59f3e06?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Z2FuZXNoJTIwcHVqYXxlbnwwfHwwfHx8MA%3D%3D",
     rating: "4.8",
     bookings: "1.8K",
     tag: "Trending",
@@ -22,7 +22,7 @@ const categories = [
   },
   {
     title: "Vehicle Puja",
-    image: "car3.jpeg",
+    image: "https://media.gettyimages.com/id/2235319345/photo/a-hindu-priest-offers-prayers-to-a-truck-to-celebrate-the-festival-of-vishwakarma-puja-the.jpg?s=612x612&w=0&k=20&c=K75vtHu2o2DEJkht07ypHwZtxNVz6n2OoWkSrYBUNek=",
     rating: "4.9",
     bookings: "950",
     tag: "Fast Booking",
@@ -30,7 +30,7 @@ const categories = [
   },
   {
     title: "Navgraha Shanti",
-    image: "navgrah2.jpeg",
+    image: "https://thumbs.dreamstime.com/b/navagraha-puja-worship-nine-planets-navagraha-puja-worship-nine-planets-hindu-rituals-109994976.jpg?w=768",
     rating: "4.8",
     bookings: "1.3K",
     tag: "Recommended",
@@ -38,7 +38,7 @@ const categories = [
   },
   {
     title: "Satyanarayan Katha",
-    image: "satyanarayan.jpeg",
+    image:  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM6fYbh3w7tgOV5bJ7fLckYbMTASFhPfq2-UGANJ_Z3A&s=10",
     rating: "5.0",
     bookings: "3.2K",
     tag: "Best Seller",
@@ -46,7 +46,7 @@ const categories = [
   },
   {
     title: "Mundan Sanskar",
-    image: "mundan1.jpeg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmAXHil5nYvfbWzQQKvN_WhNPIcmPfDbuMNI8GAEYPHQ&s=10",
     rating: "4.7",
     bookings: "700",
     tag: "New",
@@ -146,7 +146,7 @@ const RitualCategories = () => {
           className="relative mb-12 rounded-[32px] overflow-hidden border border-white/10"
         >
           <img
-            src="grahpravesh.jpeg"
+            src= "https://images.unsplash.com/photo-1680491026421-75b3f2feef56?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3JpaGElMjBwcmF2ZXNofGVufDB8fDB8fHww"
             alt="Griha Pravesh"
             className="w-full h-[300px] md:h-[500px] object-cover"
           />

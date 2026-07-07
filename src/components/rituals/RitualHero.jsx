@@ -39,7 +39,7 @@ const RitualHero = () => {
       {/* Background */}
       <div className="absolute inset-0">
         <img
-          src="8.jpg"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZyNh42QrVrc10bWhQzBsO8-9utzBCmrSH7tjXy-DFkg&s=10"
           alt="Ritual"
           className="w-full h-full object-cover"
         />
