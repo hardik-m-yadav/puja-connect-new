@@ -32,7 +32,15 @@ import PanditBookings from "./pandit/pages/PanditBookings";
 import PanditEarnings from "./pandit/pages/PanditEarnings";
 import PanditProfile from "./pandit/pages/PanditProfile";
 import PanditAvailability from "./pandit/pages/PanditAvailability";
-
+import UserLogin from "./admin/pages/UserLogin";
+import UserDashboard from "./user/pages/UserDashboard";
+import ProtectedRoute from "./routes/ProtectedRoute";
+import UserBookings from "./user/pages/UserBookings";  
+import UserProfile from "./user/pages/UserProfile";
+import UserSettings from "./user/pages/UserSettings";
+import UserNotifications from "./user/pages/UserNotifications";
+import UserRegister from "./user/pages/UserRegister";
+import UserBookingDetails from "./user/pages/UserBookingDetails";
 
 
 const App = () => {
@@ -57,18 +65,20 @@ const App = () => {
 
   const isAdminRoute = location.pathname.startsWith("/admin");
 const isPanditRoute = location.pathname.startsWith("/pandit/");
+const isUserRoute = location.pathname.startsWith("/user");
 
 const hideFooterRoutes = ["/ai-guru"];
 
 const hideFooter =
   hideFooterRoutes.includes(location.pathname) ||
   isAdminRoute ||
-  isPanditRoute;
+  isPanditRoute ||
+  isUserRoute;
 
 return (
   <>
     {/* ❌ Hide Navbar for Admin + Pandit */}
-    {!isAdminRoute && !isPanditRoute && <Navbar />}
+    {!isAdminRoute && !isPanditRoute && !isUserRoute && <Navbar />}
 
       <Routes>
         {/* Home */}
@@ -176,8 +186,37 @@ return (
 
 
 
+<Route path="/user/login" element={<UserLogin />} />
 
 
+<Route path="/register" element={<UserRegister />} />
+
+
+
+<Route path="/user/bookings" element={<UserBookings />} />
+
+
+
+<Route
+  path="/user/bookings/:id"
+  element={<UserBookingDetails />}
+/>
+
+
+<Route path="/user/profile" element={<UserProfile />} />
+<Route path="/user/settings" element={<UserSettings />} />
+<Route path="/user/notifications" element={<UserNotifications />} />
+
+
+
+<Route
+  path="/user/dashboard"
+  element={
+    <ProtectedRoute>
+      <UserDashboard />
+    </ProtectedRoute>
+  }
+/>
 
 <Route path="/pandit/login" element={<PanditLogin />} />
 

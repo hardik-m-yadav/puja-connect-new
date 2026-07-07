@@ -146,7 +146,7 @@ tag: "Most Booked",
 {
   id: 10,
   name: "Pandit Nitin Vyas",
-  image: "/p5.jpg",
+  image: "/p20.jpg",
   experience: "19 Years",
   rating: 5.0,
   reviews: 520,
@@ -162,7 +162,7 @@ tag: "Most Booked",
 {
   id: 11,
   name: "Pandit Kunal Dwivedi",
-  image: "/p1.jpg",
+  image: "/p21.jpg",
   experience: "9 Years",
   rating: 4.7,
   reviews: 175,
@@ -178,7 +178,7 @@ tag: "Most Booked",
 {
   id: 12,
   name: "Pandit Mohan Trivedi",
-  image: "/p2.jpg",
+  image: "/22.jpg",
   experience: "22 Years",
   rating: 5.0,
   reviews: 690,
@@ -194,7 +194,7 @@ tag: "Most Booked",
 {
   id: 13,
   name: "Pandit Sanjay Kulkarni",
-  image: "/p4.jpg",
+  image: "/p23.jpg",
   experience: "13 Years",
   rating: 4.8,
   reviews: 245,
@@ -210,7 +210,7 @@ tag: "Most Booked",
 {
   id: 14,
   name: "Pandit Ashok Dixit",
-  image: "/p5.jpg",
+  image: "/p24.jpg",
   experience: "18 Years",
   rating: 4.9,
   reviews: 455,
@@ -226,7 +226,7 @@ tag: "Most Booked",
 {
   id: 15,
   name: "Pandit Harish Purohit",
-  image: "/p1.jpg",
+  image: "/p25.jpg",
   experience: "17 Years",
   rating: 4.9,
   reviews: 430,
@@ -242,7 +242,7 @@ specialization: [
 {
   id: 16,
   name: "Pandit Vinay Pandey",
-  image: "/p2.jpg",
+  image: "/p26.jpg",
   experience: "12 Years",
   rating: 4.8,
   reviews: 265,
@@ -258,7 +258,7 @@ specialization: [
 {
   id: 17,
   name: "Pandit Prakash Bhatt",
-  image: "/p4.jpg",
+  image: "/p27.jpg",
   experience: "21 Years",
   rating: 5.0,
   reviews: 620,
@@ -274,7 +274,7 @@ specialization: [
 {
   id: 18,
   name: "Pandit Gopal Sharma",
-  image: "/p5.jpg",
+  image: "/p28.jpg",
   experience: "15 Years",
   rating: 4.8,
   reviews: 310,
@@ -290,7 +290,7 @@ specialization: [
 {
   id: 19,
   name: "Pandit Raghav Tiwari",
-  image: "/p1.jpg",
+  image: "/p29.jpg",
   experience: "10 Years",
   rating: 4.7,
   reviews: 185,
@@ -306,7 +306,7 @@ specialization: [
 {
   id: 20,
   name: "Pandit Shyam Mishra",
-  image: "/p2.jpg",
+  image: "/p30.jpg",
   experience: "23 Years",
   rating: 5.0,
   reviews: 740,
@@ -322,7 +322,7 @@ specialization: [
 {
   id: 21,
   name: "Pandit Dinesh Joshi",
-  image: "/p4.jpg",
+  image: "/p31.jpg",
   experience: "14 Years",
   rating: 4.8,
   reviews: 295,
@@ -338,7 +338,7 @@ specialization: [
 {
   id: 22,
   name: "Pandit Omkar Deshpande",
-  image: "/p5.jpg",
+  image: "/p32.jpg",
   experience: "18 Years",
   rating: 4.9,
   reviews: 445,
@@ -354,7 +354,7 @@ specialization: [
 {
   id: 23,
   name: "Pandit Lalit Shastri",
-  image: "/p1.jpg",
+  image: "/p33.jpg",
   experience: "20 Years",
   rating: 5.0,
   reviews: 590,
@@ -370,7 +370,7 @@ specialization: [
 {
   id: 24,
   name: "Pandit Bharat Vyas",
-  image: "/p2.jpg",
+  image: "/p34.jpg",
   experience: "11 Years",
   rating: 4.7,
   reviews: 210,
@@ -386,7 +386,7 @@ specialization: [
 {
   id: 25,
   name: "Pandit Akash Dubey",
-  image: "/p4.jpg",
+  image: "/p35.jpg",
   experience: "13 Years",
   rating: 4.8,
   reviews: 270,
@@ -402,7 +402,7 @@ specialization: [
 {
   id: 26,
   name: "Pandit Yogesh Pathak",
-  image: "/p5.jpg",
+  image: "/p36.jpg",
   experience: "17 Years",
   rating: 4.9,
   reviews: 480,
@@ -418,7 +418,7 @@ specialization: [
 {
   id: 27,
   name: "Pandit Hemant Pande",
-  image: "/p1.jpg",
+  image: "/p37.jpg",
   experience: "15 Years",
   rating: 4.8,
   reviews: 325,
@@ -434,7 +434,7 @@ specialization: [
 {
   id: 28,
   name: "Pandit Umesh Tiwari",
-  image: "/p2.jpg",
+  image: "/p38.jpg",
   experience: "22 Years",
   rating: 5.0,
   reviews: 710,
@@ -450,7 +450,7 @@ specialization: [
 {
   id: 29,
   name: "Pandit Nilesh Sharma",
-  image: "/p4.jpg",
+  image: "/p39.jpg",
   experience: "10 Years",
   rating: 4.7,
   reviews: 195,
@@ -466,7 +466,7 @@ specialization: [
 {
   id: 30,
   name: "Pandit Rohit Joshi",
-  image: "/p5.jpg",
+  image: "/p40.jpg",
   experience: "19 Years",
   rating: 4.9,
   reviews: 520,
@@ -482,7 +482,7 @@ specialization: [
 {
   id: 31,
   name: "Pandit Aditya Mishra",
-  image: "/p1.jpg",
+  image: "/p41.jpg",
   experience: "12 Years",
   rating: 4.8,
   reviews: 255,
@@ -498,7 +498,7 @@ specialization: [
 {
   id: 32,
   name: "Pandit Suraj Shukla",
-  image: "/p2.jpg",
+  image: "/p42.jpg",
   experience: "16 Years",
   rating: 4.9,
   reviews: 410,
@@ -514,7 +514,7 @@ specialization: [
 {
   id: 33,
   name: "Pandit Pankaj Dixit",
-  image: "/p4.jpg",
+  image: "/p43.jpg",
   experience: "21 Years",
   rating: 5.0,
   reviews: 650,
@@ -530,7 +530,7 @@ specialization: [
 {
   id: 34,
   name: "Pandit Tarun Vyas",
-  image: "/p5.jpg",
+  image: "/p44.jpg",
   experience: "14 Years",
   rating: 4.8,
   reviews: 290,
@@ -546,7 +546,7 @@ specialization: [
 {
   id: 35,
   name: "Pandit Manoj Trivedi",
-  image: "/p1.jpg",
+  image: "/p45.jpg",
   experience: "24 Years",
   rating: 5.0,
   reviews: 820,
@@ -562,7 +562,7 @@ specialization: [
 {
   id: 36,
   name: "Pandit Sagar Kulkarni",
-  image: "/p2.jpg",
+  image: "/p46.jpg",
   experience: "17 Years",
   rating: 4.9,
   reviews: 465,
@@ -578,7 +578,7 @@ specialization: [
 {
   id: 37,
   name: "Pandit Mahendra Purohit",
-  image: "/p4.jpg",
+  image: "/p47.jpg",
   experience: "26 Years",
   rating: 5.0,
   reviews: 940,
@@ -594,7 +594,7 @@ specialization: [
 {
   id: 38,
   name: "Pandit Keshav Bhatt",
-  image: "/p5.jpg",
+  image: "/p48.jpg",
   experience: "15 Years",
   rating: 4.8,
   reviews: 340,
@@ -610,7 +610,7 @@ specialization: [
 {
   id: 39,
   name: "Pandit Anand Sharma",
-  image: "/p1.jpg",
+  image: "/p49.jpg",
   experience: "18 Years",
   rating: 4.9,
   reviews: 510,
@@ -626,7 +626,7 @@ specialization: [
 {
   id: 40,
   name: "Pandit Rituraj Pandey",
-  image: "/p2.jpg",
+  image: "/p50.jpg",
   experience: "23 Years",
   rating: 5.0,
   reviews: 760,
@@ -642,7 +642,7 @@ specialization: [
 {
   id: 41,
   name: "Pandit Abhishek Tiwari",
-  image: "/p4.jpg",
+  image: "/p51.jpg",
   experience: "13 Years",
   rating: 4.8,
   reviews: 285,
@@ -658,7 +658,7 @@ specialization: [
 {
   id: 42,
   name: "Pandit Sachin Joshi",
-  image: "/p5.jpg",
+  image: "/p52.jpg",
   experience: "19 Years",
   rating: 4.9,
   reviews: 560,
@@ -674,7 +674,7 @@ specialization: [
 {
   id: 43,
   name: "Pandit Vikas Mishra",
-  image: "/p1.jpg",
+  image: "/p53.jpg",
   experience: "21 Years",
   rating: 5.0,
   reviews: 690,
@@ -690,7 +690,7 @@ specialization: [
 {
   id: 44,
   name: "Pandit Neeraj Pathak",
-  image: "/p2.jpg",
+  image: "/p54.jpg",
   experience: "11 Years",
   rating: 4.7,
   reviews: 210,
@@ -706,7 +706,7 @@ specialization: [
 {
   id: 45,
   name: "Pandit Arvind Dubey",
-  image: "/p4.jpg",
+  image: "/p55.jpg",
   experience: "24 Years",
   rating: 5.0,
   reviews: 830,
@@ -722,7 +722,7 @@ specialization: [
 {
   id: 46,
   name: "Pandit Kamlesh Vyas",
-  image: "/p5.jpg",
+  image: "/p56.jpg",
   experience: "16 Years",
   rating: 4.8,
   reviews: 375,
@@ -738,7 +738,7 @@ specialization: [
 {
   id: 47,
   name: "Pandit Tejas Deshpande",
-  image: "/p1.jpg",
+  image: "/p57.jpg",
   experience: "14 Years",
   rating: 4.8,
   reviews: 295,
@@ -754,7 +754,7 @@ specialization: [
 {
   id: 48,
   name: "Pandit Mukesh Shastri",
-  image: "/p2.jpg",
+  image: "/p58.jpg",
   experience: "27 Years",
   rating: 5.0,
   reviews: 1050,
@@ -770,7 +770,7 @@ specialization: [
 {
   id: 49,
   name: "Pandit Chetan Purohit",
-  image: "/p4.jpg",
+  image: "/p59.jpg",
   experience: "18 Years",
   rating: 4.9,
   reviews: 490,
@@ -786,7 +786,7 @@ specialization: [
 {
   id: 50,
   name: "Pandit Yash Sharma",
-  image: "/p5.jpg",
+  image: "/p60.jpg",
   experience: "12 Years",
   rating: 4.8,
   reviews: 260,
@@ -802,7 +802,7 @@ specialization: [
 {
   id: 51,
   name: "Pandit Devendra Tiwari",
-  image: "/p1.jpg",
+  image: "/p61.jpg",
   experience: "30 Years",
   rating: 5.0,
   reviews: 1250,

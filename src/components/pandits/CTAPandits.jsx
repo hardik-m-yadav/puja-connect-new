@@ -43,13 +43,13 @@ const CTA = () => {
 
           {/* Buttons */}
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-5">
-            <Link to="/book">
+            <Link to="/rituals">
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="px-8 py-4 rounded-full bg-gradient-to-r from-amber-400 to-orange-500 text-black font-semibold flex items-center gap-2 shadow-lg shadow-amber-500/20"
               >
-                Book Your Pandit Now
+                Book Your Puja Now
                 <FiArrowRight />
               </motion.button>
             </Link>

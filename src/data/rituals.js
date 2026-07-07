@@ -143,7 +143,7 @@ export const rituals = [
   rating: "5.0",
   duration: "120–180 Min",
     tag: "Most Booked",
-  img: "/rudra1.jpg",
+  img: "/rudra.png",
   description:
     "Rudrabhishek is a sacred worship of Lord Shiva performed by offering holy substances while chanting Vedic mantras. It helps remove negativity, overcome obstacles, improve health, and attract prosperity and spiritual growth."
 },
@@ -155,7 +155,7 @@ export const rituals = [
   rating: "5.0",
   duration: "120–180 Min",
   tag: "Recommended",
-  img: "/mrityunjaya.jpg",
+  img: "/mrityunjaya.png",
   description:
     "Maha Mrityunjaya Puja is dedicated to Lord Shiva and is performed for health, recovery, protection from dangers, and longevity. It is considered one of the most powerful Vedic rituals."
 },
@@ -167,7 +167,7 @@ export const rituals = [
   rating: "4.9",
   duration: "60–90 Min",
    tag: "Premium",
-  img: "/lakshmi.jpg",
+  img: "/lakshmi.png",
   description:
     "Lakshmi Puja is performed to seek the blessings of Goddess Lakshmi for financial prosperity, success, abundance, and harmony in family and business life."
 },
@@ -191,7 +191,7 @@ export const rituals = [
   rating: "4.9",
   duration: "60–90 Min",
     tag: "Most Booked",
-  img: "/hanuman.jpg",
+  img: "/hanuman.jpeg",
   description:
     "Hanuman Puja invokes Lord Hanuman's blessings for strength, confidence, protection from negative energies, and success in difficult situations."
 },
@@ -203,7 +203,7 @@ export const rituals = [
   rating: "4.9",
   duration: "90–120 Min",
   tag: "Recommended",
-  img: "/business.jpg",
+  img: "/business1.jpg",
   description:
     "A sacred ritual performed before opening a new office, shop, or business to attract prosperity, success, positive energy, and long-term growth."
 },
@@ -215,7 +215,7 @@ export const rituals = [
   rating: "4.8",
   duration: "120–180 Min",
   tag: "Recommended",
-  img: "/vastu.jpg",
+  img: "/business2.jpg",
   description:
     "Vastu Shanti Puja balances energies within a property, removes Vastu defects, and brings peace, health, prosperity, and happiness."
 },
@@ -227,7 +227,7 @@ export const rituals = [
   rating: "4.8",
   duration: "60–90 Min",
    tag: "Premium",
-  img: "/namkaran.jpg",
+  img: "/naming.jpg",
   description:
     "Namkaran Sanskar is the traditional Hindu naming ceremony performed to bless the newborn and formally introduce them to society."
 },
@@ -239,7 +239,7 @@ export const rituals = [
   rating: "4.9",
   duration: "180–240 Min",
   tag: "Recommended",
-  img: "/upanayan.jpg",
+  img: "/janeu.jpg",
   description:
     "Upanayan Sanskar marks the spiritual initiation of a child and is one of the most important rites in Hindu culture."
 },
@@ -251,7 +251,7 @@ export const rituals = [
   rating: "4.8",
   duration: "60–90 Min",
    tag: "Premium",
-  img: "/annaprashan.jpg",
+  img: "/baby.jpg",
   description:
     "Annaprashan is the sacred ceremony celebrating a baby's first intake of solid food while seeking blessings for health and growth."
 }
